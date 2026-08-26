@@ -126,3 +126,17 @@ vsk --help
 ```
 
 هذه الحزمة الحالية مبنية لمعمارية `amd64` على Debian/Ubuntu. يمكن إعادة بناء الحزمة لمعمارية أخرى من المصدر باستخدام `packaging/build-deb.sh` بعد توفير مترجم C مناسب لتلك المعمارية.
+
+## روابط النشر
+
+مستودع GitHub:
+
+`https://github.com/xAboodPBx/vsk-language`
+
+صفحة الإصدار `v0.3.0`:
+
+`https://github.com/xAboodPBx/vsk-language/releases/tag/v0.3.0`
+
+رابط تنزيل حزمة Debian amd64:
+
+`https://github.com/xAboodPBx/vsk-language/releases/download/v0.3.0/vsk_0.3.0_amd64.deb`
