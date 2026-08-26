@@ -1,0 +1,27 @@
+# VSK 0.2 independent syntax
+BRING Math
+bring unused_package
+
+set Name = "VSK"
+set score = 10
+SCORE += 5
+
+say name
+say Math.sqrt(81)
+
+proc greet(person) {
+    say "hello " + person
+    give 42
+}
+
+set result = GREET("developer")
+say result
+
+when score >= 15 {
+    say "condition works"
+} otherwise {
+    say "not reached"
+}
+
+set missing = unknown_value
+say "the script continues"

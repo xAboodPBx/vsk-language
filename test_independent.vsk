@@ -1,0 +1,14 @@
+set n = 0
+repeat n < 3 {
+    say n
+    n += 1
+}
+
+when n == 3 {
+    say "repeat works"
+} otherwise {
+    say "repeat failed"
+}
+
+bring Text
+say Text.upper("independent")

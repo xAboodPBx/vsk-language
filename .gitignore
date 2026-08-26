@@ -1,0 +1,7 @@
+vskc
+*.stdout
+*.stderr
+build.warnings
+__pycache__/
+dist/
+packaging/vsk/usr/

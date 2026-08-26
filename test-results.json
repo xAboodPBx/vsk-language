@@ -1,0 +1,189 @@
+{
+  "binary": "/home/ubuntu/vsk/vskc",
+  "total": 20,
+  "passed": 20,
+  "failed": 0,
+  "pass_rate": 100.0,
+  "results": [
+    {
+      "name": "empty_program",
+      "passed": true,
+      "duration_ms": 0.89,
+      "details": [],
+      "stdout": "",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "assignment_and_case_insensitivity",
+      "passed": true,
+      "duration_ms": 0.72,
+      "details": [],
+      "stdout": "VSK language!\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "arithmetic_precedence",
+      "passed": true,
+      "duration_ms": 0.64,
+      "details": [],
+      "stdout": "14\n20\n5\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "booleans_and_logic",
+      "passed": true,
+      "duration_ms": 0.51,
+      "details": [],
+      "stdout": "false\ntrue\ntrue\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "string_operations",
+      "passed": true,
+      "duration_ms": 0.52,
+      "details": [],
+      "stdout": "A7\nMIXED\nmixed\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "function_and_return",
+      "passed": true,
+      "duration_ms": 0.54,
+      "details": [],
+      "stdout": "7\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "recursive_function",
+      "passed": true,
+      "duration_ms": 0.54,
+      "details": [],
+      "stdout": "720\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "when_otherwise",
+      "passed": true,
+      "duration_ms": 0.57,
+      "details": [],
+      "stdout": "yes\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "repeat_loop",
+      "passed": true,
+      "duration_ms": 0.53,
+      "details": [],
+      "stdout": "0\n1\n2\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "comments",
+      "passed": true,
+      "duration_ms": 0.49,
+      "details": [],
+      "stdout": "9\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "math_module",
+      "passed": true,
+      "duration_ms": 0.51,
+      "details": [],
+      "stdout": "12\n3.14159\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "unused_library_is_ignored",
+      "passed": true,
+      "duration_ms": 0.49,
+      "details": [],
+      "stdout": "ok\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "missing_library_continues",
+      "passed": true,
+      "duration_ms": 0.5,
+      "details": [],
+      "stdout": "continued\n",
+      "stderr": "[VSK notice] script requested unavailable library 'database_driver'; ignored and continuing\n",
+      "returncode": 0
+    },
+    {
+      "name": "missing_name_continues",
+      "passed": true,
+      "duration_ms": 0.48,
+      "details": [],
+      "stdout": "nil\ncontinued\n",
+      "stderr": "[VSK notice] name 'unknown_value' is not defined; continuing with nil\n",
+      "returncode": 0
+    },
+    {
+      "name": "division_by_zero_is_nonfatal",
+      "passed": true,
+      "duration_ms": 0.54,
+      "details": [],
+      "stdout": "nil\n5\n",
+      "stderr": "[VSK notice] division by zero; continuing with nil\n",
+      "returncode": 0
+    },
+    {
+      "name": "syntax_unclosed_string",
+      "passed": true,
+      "duration_ms": 0.58,
+      "details": [],
+      "stdout": "",
+      "stderr": "VSK syntax error at line 1: unclosed string\n",
+      "returncode": 1
+    },
+    {
+      "name": "syntax_unknown_character",
+      "passed": true,
+      "duration_ms": 0.56,
+      "details": [],
+      "stdout": "",
+      "stderr": "VSK syntax error at line 1: unknown character '@'\n",
+      "returncode": 1
+    },
+    {
+      "name": "syntax_missing_brace",
+      "passed": true,
+      "duration_ms": 0.58,
+      "details": [],
+      "stdout": "",
+      "stderr": "VSK syntax error at line 2: unexpected ''\n",
+      "returncode": 1
+    },
+    {
+      "name": "long_string_boundary",
+      "passed": true,
+      "duration_ms": 0.59,
+      "details": [],
+      "stdout": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n",
+      "stderr": "",
+      "returncode": 0
+    },
+    {
+      "name": "long_string_rejected",
+      "passed": true,
+      "duration_ms": 0.51,
+      "details": [],
+      "stdout": "",
+      "stderr": "VSK syntax error at line 1: string too long\n",
+      "returncode": 1
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+name: VSK CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build native runtime
+        run: make
+      - name: Functional tests
+        run: python3 tests/test_suite.py
+      - name: Adversarial tests
+        run: python3 tests/adversarial_suite.py
+      - name: Fuzz tests
+        run: python3 tests/fuzz_suite.py
+      - name: CLI smoke test
+        run: |
+          test "$(./vskc --version)" = "VSK 0.3.0"
+          ./vsk demo_independent.vsk
+
+  package:
+    runs-on: ubuntu-24.04
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Debian package
+        run: packaging/build-deb.sh
+      - name: Inspect Debian package
+        run: dpkg-deb --info dist/vsk_0.3.0_amd64.deb
+      - name: Upload Debian artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: vsk-0.3.0-amd64-deb
+          path: dist/vsk_0.3.0_amd64.deb

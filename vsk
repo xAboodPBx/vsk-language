@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -eu
+SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+if [ ! -x "$SCRIPT_DIR/vskc" ]; then
+    echo "VSK: النواة غير مبنية. شغّل make أولًا." >&2
+    exit 2
+fi
+exec "$SCRIPT_DIR/vskc" "$@"

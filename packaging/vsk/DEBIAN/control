@@ -1,0 +1,10 @@
+Package: vsk
+Version: 0.3.0
+Section: devel
+Priority: optional
+Architecture: amd64
+Maintainer: VSK Project <vsk-project@example.invalid>
+Depends: libc6 (>= 2.35)
+Description: VSK programming language runtime
+ VSK is an independent, case-insensitive scripting language.
+ The package installs the vsk command and supports: vsk program.vk
