@@ -19,7 +19,7 @@ exec /usr/lib/vsk/vskc "$@"
 LAUNCHER
 chmod 0755 "$PKG_ROOT/usr/bin/vsk" "$PKG_ROOT/usr/lib/vsk/vskc"
 
-cp "$ROOT/README.md" "$ROOT/VSK_SPEC.md" "$PKG_ROOT/usr/share/doc/vsk/"
+cp "$ROOT/README.md" "$ROOT/VSK_SPEC.md" "$ROOT/FUNCTIONS.md" "$PKG_ROOT/usr/share/doc/vsk/"
 cp "$ROOT/demo_independent.vsk" "$PKG_ROOT/usr/share/vsk/examples/hello.vk"
 chmod 0644 "$PKG_ROOT/usr/share/doc/vsk/"* "$PKG_ROOT/usr/share/vsk/examples/hello.vk"
 
