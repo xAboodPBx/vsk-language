@@ -5,3 +5,4 @@ build.warnings
 __pycache__/
 dist/
 packaging/vsk/usr/
+test-results.json
